@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+body{
+    background-color: darkslategray;
+}
+h1{
+    font-size: 50px;
+    color: coral;
+    text-align: center;
+    margin-left: 100px;
+}div{
+            text-align: center;
+            background-color: bisque;
+            width:600px;
+            height:900px;
+            margin-left: 500px;
+            margin-top: 0px;
+            margin-bottom: 1000px;
+            margin-right: 500px;
+
+            
+            border-radius: 10%;
+            /* padding:10px; */
+            font-size: 10px;
+    /* padding :70px; */
+padding : 20px;
+padding-left: 40px;
+padding-right: 40px;
+}
+input{
+            width:350px;
+            padding:10px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            border-radius: 20px;
+        }
+       
+        
+        /* label{
+            font-size: 25px;
+        } */
+        button{
+            margin-top: 50px;
+            border-radius: 20px;
+            width:100px;
+            height: 50px;
+            background-color: dodgerblue;
+        
+        }
+        .Condition{
+           margin-right: 30%;
+        }
+        label{
+            font-size: large;
+        }
+         .DOB{
+           width:150px;
+           height: px;
+            
+        } 
+        
+        select{
+            border-radius: 20px;
+        }
+        .checkbox{
+            width:20px;
+            height: 10px;
+           
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>APPLICATION FORM</h1>
+    <div>
+        <form>
+            <input type="text" placeholder="Your First Name" required><br>
+<input type ="text" placeholder = "Your Last Name" required ><br>
+<label>Your Gender:</label>
+        <select name = "dropdown">
+            <option value = "Male">Male</option>
+            <option value = "Female">Female</option>
+            
+         </select><br><br>
+
+
+<label>Date Of Birth:</label>
+<input class="DOB" type="date" required><br>
+<input type="number" placeholder="Your Phone Number" required><br>
+<input type="email" placeholder="Your email"><br>
+
+<label>Your Branch :</label>
+<select name = "dropdown" >
+    <option value = "Machenical ">Machenical</option>
+    <option value = "Computer Science & IT">Computer Science & IT</option>
+    <option value = "Electronics">Electronics</option>
+ </select><br><br>
+ 
+
+
+
+
+
+<input type ="text" placeholder="Your Country Name" required><br>
+<input class="checkbox" type="checkbox" > <label class="Condition">I have read all terms and conditions</label><br><br>
+
+
+<button type="reset" >SUBMIT</button><br> <br>
+
+
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
